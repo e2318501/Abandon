@@ -1,8 +1,8 @@
-package com.github.e2318501.anyban;
+package com.github.e2318501.abandon;
 
 
 import lombok.RequiredArgsConstructor;
-import com.github.e2318501.anyban.util.DateManager;
+import com.github.e2318501.abandon.util.DateManager;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 
 @RequiredArgsConstructor
 public class CachedPlayerManager {
-    private final AnyBan plugin;
+    private final Abandon plugin;
     private final List<CachedPlayer> cachedPlayers = new ArrayList<>();
     private static final String JSON_FILE_NAME = "usercache.json";
 

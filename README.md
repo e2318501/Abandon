@@ -1,6 +1,6 @@
-# AnyBan
+# Abandon
 
-AnyBan is a simple punishment plugin for BungeeCord, which has similar commands
+Abandon is a simple punishment plugin for BungeeCord, which has similar commands
 to the default `/ban` (and so on) commands in Minecraft.
 
 ## Features
@@ -14,11 +14,11 @@ to the default `/ban` (and so on) commands in Minecraft.
 
 | Command                            | Permission                 | Description                                 |
 | ---------------------------------- | -------------------------- | ------------------------------------------- |
-| `/aban <player> [<reason>]`        | `anyban.command.ban`       | Add the player to the player blacklist      |
-| `/aban-ip <player\|ip> [<reason>]` | `anyban.command.ban-ip`    | Add the IP address to the IP blacklist      |
-| `/abanlist [<players\|ips>]`       | `anyban.command.banlist`   | Display the blacklist                       |
-| `/apardon <player>`                | `anyban.command.pardon`    | Remove the player from the player blacklist |
-| `/apardon-ip <ip>`                 | `anyban.command.pardon-ip` | Remove the IP address from the IP blacklist |
+| `/aban <player> [<reason>]`        | `abandon.command.ban`       | Add the player to the player blacklist      |
+| `/aban-ip <player\|ip> [<reason>]` | `abandon.command.ban-ip`    | Add the IP address to the IP blacklist      |
+| `/abanlist [<players\|ips>]`       | `abandon.command.banlist`   | Display the blacklist                       |
+| `/apardon <player>`                | `abandon.command.pardon`    | Remove the player from the player blacklist |
+| `/apardon-ip <ip>`                 | `abandon.command.pardon-ip` | Remove the IP address from the IP blacklist |
 
 ### Data Importing
 

@@ -1,4 +1,4 @@
-package com.github.e2318501.anyban;
+package com.github.e2318501.abandon;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

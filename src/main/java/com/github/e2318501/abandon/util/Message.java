@@ -1,4 +1,4 @@
-package com.github.e2318501.anyban.util;
+package com.github.e2318501.abandon.util;
 
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.chat.TextComponent;

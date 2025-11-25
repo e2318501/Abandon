@@ -1,13 +1,13 @@
-package com.github.e2318501.anyban;
+package com.github.e2318501.abandon;
 
 import lombok.Getter;
 import net.md_5.bungee.api.plugin.Plugin;
 import net.md_5.bungee.api.plugin.PluginManager;
-import com.github.e2318501.anyban.command.*;
-import com.github.e2318501.anyban.listener.LoginListener;
+import com.github.e2318501.abandon.command.*;
+import com.github.e2318501.abandon.listener.LoginListener;
 
 @Getter
-public final class AnyBan extends Plugin {
+public final class Abandon extends Plugin {
     private final BannedPlayerManager bannedPlayerManager = new BannedPlayerManager(this);
     private final BannedIpManager bannedIpManager = new BannedIpManager(this);
     private final CachedPlayerManager cachedPlayerManager = new CachedPlayerManager(this);

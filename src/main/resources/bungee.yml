@@ -1,5 +1,5 @@
-name: AnyBan
+name: Abandon
 version: '${project.version}'
-main: com.github.e2318501.anyban.AnyBan
+main: com.github.e2318501.abandon.Abandon
 author: e2318501
 description: A simple ban plugin for BungeeCord

@@ -1,12 +1,12 @@
-package com.github.e2318501.anyban.command;
+package com.github.e2318501.abandon.command;
 
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.chat.TextComponent;
 import net.md_5.bungee.api.plugin.Command;
 import net.md_5.bungee.api.plugin.TabExecutor;
-import com.github.e2318501.anyban.AnyBan;
-import com.github.e2318501.anyban.util.Message;
-import com.github.e2318501.anyban.util.TabCompleteUtil;
+import com.github.e2318501.abandon.Abandon;
+import com.github.e2318501.abandon.util.Message;
+import com.github.e2318501.abandon.util.TabCompleteUtil;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -14,12 +14,12 @@ import java.util.Collections;
 import java.util.List;
 
 public class BanListCommand extends Command implements TabExecutor {
-    private final AnyBan plugin;
+    private final Abandon plugin;
     private static final String PLAYERS = "players";
     private static final String IPS = "ips";
 
-    public BanListCommand(AnyBan plugin) {
-        super("abanlist", "anyban.command.banlist");
+    public BanListCommand(Abandon plugin) {
+        super("abanlist", "abandon.command.banlist");
         this.plugin = plugin;
     }
 
