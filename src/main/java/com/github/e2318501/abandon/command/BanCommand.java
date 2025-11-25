@@ -1,20 +1,20 @@
-package com.github.e2318501.anyban.command;
+package com.github.e2318501.abandon.command;
 
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.md_5.bungee.api.plugin.Command;
 import net.md_5.bungee.api.plugin.TabExecutor;
-import com.github.e2318501.anyban.AnyBan;
-import com.github.e2318501.anyban.util.Message;
-import com.github.e2318501.anyban.util.TabCompleteUtil;
+import com.github.e2318501.abandon.Abandon;
+import com.github.e2318501.abandon.util.Message;
+import com.github.e2318501.abandon.util.TabCompleteUtil;
 
 import java.util.*;
 
 public class BanCommand extends Command implements TabExecutor {
-    private final AnyBan plugin;
+    private final Abandon plugin;
 
-    public BanCommand(AnyBan plugin) {
-        super("aban", "anyban.command.ban");
+    public BanCommand(Abandon plugin) {
+        super("aban", "abandon.command.ban");
         this.plugin = plugin;
     }
 

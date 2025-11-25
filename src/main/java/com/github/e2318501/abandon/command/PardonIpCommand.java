@@ -1,20 +1,20 @@
-package com.github.e2318501.anyban.command;
+package com.github.e2318501.abandon.command;
 
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.plugin.Command;
 import net.md_5.bungee.api.plugin.TabExecutor;
-import com.github.e2318501.anyban.AnyBan;
-import com.github.e2318501.anyban.util.Message;
-import com.github.e2318501.anyban.util.IpChecker;
-import com.github.e2318501.anyban.util.TabCompleteUtil;
+import com.github.e2318501.abandon.Abandon;
+import com.github.e2318501.abandon.util.Message;
+import com.github.e2318501.abandon.util.IpChecker;
+import com.github.e2318501.abandon.util.TabCompleteUtil;
 
 import java.util.Collections;
 
 public class PardonIpCommand extends Command implements TabExecutor {
-    private final AnyBan plugin;
+    private final Abandon plugin;
 
-    public PardonIpCommand(AnyBan plugin) {
-        super("apardon-ip", "anyban.command.pardon-ip");
+    public PardonIpCommand(Abandon plugin) {
+        super("apardon-ip", "abandon.command.pardon-ip");
         this.plugin = plugin;
     }
 

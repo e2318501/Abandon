@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.e2318501</groupId>
-    <artifactId>AnyBan</artifactId>
-    <version>2.1.2</version>
+    <artifactId>Abandon</artifactId>
+    <version>2.1.3</version>
     <packaging>jar</packaging>
 
-    <name>AnyBan</name>
+    <name>Abandon</name>
 
     <properties>
         <java.version>1.8</java.version>

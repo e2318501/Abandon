@@ -1,22 +1,22 @@
-package com.github.e2318501.anyban.command;
+package com.github.e2318501.abandon.command;
 
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.md_5.bungee.api.plugin.Command;
 import net.md_5.bungee.api.plugin.TabExecutor;
-import com.github.e2318501.anyban.AnyBan;
-import com.github.e2318501.anyban.util.Message;
-import com.github.e2318501.anyban.util.IpChecker;
+import com.github.e2318501.abandon.Abandon;
+import com.github.e2318501.abandon.util.Message;
+import com.github.e2318501.abandon.util.IpChecker;
 
 import java.net.InetSocketAddress;
 import java.util.Arrays;
 import java.util.Collections;
 
 public class BanIpCommand extends Command implements TabExecutor {
-    private final AnyBan plugin;
+    private final Abandon plugin;
 
-    public BanIpCommand(AnyBan plugin) {
-        super("aban-ip", "anyban.command.ban-ip");
+    public BanIpCommand(Abandon plugin) {
+        super("aban-ip", "abandon.command.ban-ip");
         this.plugin = plugin;
     }
 

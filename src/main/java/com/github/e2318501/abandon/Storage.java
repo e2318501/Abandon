@@ -1,4 +1,4 @@
-package com.github.e2318501.anyban;
+package com.github.e2318501.abandon;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -11,7 +11,7 @@ import java.util.List;
 
 @RequiredArgsConstructor
 public class Storage {
-    private final AnyBan plugin;
+    private final Abandon plugin;
     private final Gson gson = new Gson();
     private final Gson prettyGson = new GsonBuilder().setPrettyPrinting().create();
 
